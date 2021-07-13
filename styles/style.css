@@ -1,0 +1,39 @@
+body{
+  background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    height: 679px;
+    width: 870px;
+    display: flex;
+    justify-content: center;
+    padding: 33px 30px 42px 30px;
+}
+
+.section-title{
+    font-size: 24px;
+    color: #562EFF;
+    padding-bottom: 40px;
+    margin-bottom: 0%;
+}
+.players{
+    width:870px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.players img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-name{
+    padding-left: 16px;
+}
